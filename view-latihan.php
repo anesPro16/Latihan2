@@ -8,7 +8,7 @@
 Halo Kawan.. Yuk kita belajar web programming..!! <br>
 Nilai 1 = <?= $nilai1.' '; ?>
 Nilai 2 = <?= $nilai2.' '; ?>
-ini hasil dari pemodelan dengan metode pernjumlahan yaitu <?= $nilai1. " + ". $nilai2. " = " . $hasil; ?>
+ini hasil dari pemodelan dengan metode pernjumlahan yaitu <?= "{$nilai1} + {$nilai2} =  {$hasil}"; ?>
 
 <!-- $this->load->view('view-latihan1', $data); -->
 </body>
